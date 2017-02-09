@@ -1,6 +1,6 @@
 class ListingsController < ApplicationController
   before_action :authenticate_user!
-  before_action :set_listing, onlu: [:update, :basics, :description, :address, :price, :photos, :bankaccount, :publish]
+  before_action :set_listing, only: [:update, :basics, :description, :address, :price, :photos, :bankaccount, :publish]
   
   def index
   end
