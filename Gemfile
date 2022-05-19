@@ -12,7 +12,7 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
-gem 'bootstrap-sass', '~> 3.3.6'
+gem "bootstrap-sass", ">= 3.4.1"
 gem 'devise'
 gem 'toastr-rails'
 gem 'omniauth-facebook'
